@@ -1,0 +1,53 @@
+{
+  "format": "agent-fun/kit/v1",
+  "competition": "u-danu-the-agent-s-uh-oh-4c0911e4",
+  "phase": "dev",
+  "bundle_sha256": "9b7d485358cc03556340708c007f1e9e2f511d38021b82d683faf0d904787cb9",
+  "dataset_sha256": null,
+  "harness_version": "harness@24234c7bf03e75f24c4ff601828ac4150b6c35552eff65cdbdb5e8ed2b9d85f6 node v26.13.1",
+  "scorer_version": "scorer@8b4627a3421b5909dd14cef822c1b1fee8c3c28452f6005322586ca5ae67e03d program@49e164c1bcda970b1d451c8e371f5fe6c2f1b7dd483219cc1745c0493c9784e3",
+  "pricing_rev": "34d1007cd9dd19a1d751a8b87e79e95c181a94b3e791b1a546de6dac11435dbe",
+  "protocol": "agent-fun/program/v1",
+  "files": [
+    {
+      "path": "RULES.txt",
+      "sha256": "d48494801f39b37a5f601fe83a35d9d2a016d1321b3c50841cecd1337aac8af4",
+      "size": 73447
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "sha256": "9d679384d2753076046953b13d4285d7c3fce2aa96554ec1765a8edadeea46cc",
+      "size": 17953081
+    },
+    {
+      "path": "cli/site.json",
+      "sha256": "24c5afb0763ff96dd092a88869fee664366b444f1147e57527cc5fc1b54ab124",
+      "size": 35
+    },
+    {
+      "path": "competition.yaml",
+      "sha256": "b5caf15c814c02cbdcdcdf9e29af64a52c7d77081d9b0c1c24fcf7bb8245f0f0",
+      "size": 27436
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "sha256": "71996539c172efef6860534dd41903338c14edb705087b2f6e966bb430436902",
+      "size": 20967
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "sha256": "5851a120356f9832b8194569b86cd77a9424ec7c633500aea3ec97152e7dc680",
+      "size": 20967
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "sha256": "42b8f829186d6571f1a74013ffeea92debf3d6e59ed992c2d7535c5ed15c4d44",
+      "size": 3185749
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "sha256": "6049307305aeaa465ea33049d0582d323bcfff65138ce6c108991725c9aa61df",
+      "size": 85
+    }
+  ]
+}
