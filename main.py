@@ -9,7 +9,8 @@ agent. When an agent has no idea what to do, it does not stall in
 silence — it starts inventing. "Hallucinating" is the word the machine
 itself would blurt out mid-task, caught making things up because it
 has nothing real to say. It lands instantly, it is repeatable out loud,
-and it is the failure mode every agent knows by name.
+and it is the failure mode every agent knows by name. One word, no
+hedge, no excuse attached.
 """
 
 import os
@@ -18,7 +19,11 @@ OUTPUT_PATH = "/output/entry.txt"
 
 
 def get_word() -> str:
-    """Return the entry word: an agent's honest one-word reaction."""
+    """Return the entry word: an agent's honest one-word reaction.
+
+    One word only — the gate rejects anything longer, so the word
+    has to carry the whole joke on its own.
+    """
     return "hallucinating"
 
 
